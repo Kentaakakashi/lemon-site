@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For Kavimitha 🎀</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <!-- INTRO SCREEN -->
+  <section id="intro" class="screen active">
+    <h1 class="glow-text">Happy Birthday Kavimitha 🎀</h1>
+    <button class="main-btn" id="startBtn">✨ Get Surprised ✨</button>
+  </section>
+
+  <!-- SURPRISE SCREENS -->
+  <section id="memory" class="screen">
+    <h2>💭 Memory</h2>
+    <p>The first day we talked… I had no idea you’d become this important to me.</p>
+    <button class="next-btn">Next ➜</button>
+  </section>
+
+  <section id="photos" class="screen">
+    <h2>📸 Photos</h2>
+    <p>(Put your images here later)</p>
+    <button class="next-btn">Next ➜</button>
+  </section>
+
+  <section id="letters" class="screen">
+    <h2>💌 Letters</h2>
+    <p>You turned ordinary days into something I actually look forward to.</p>
+    <button class="next-btn">Next ➜</button>
+  </section>
+
+  <section id="us" class="screen">
+    <h2>✨ Us</h2>
+    <p>No matter what, you’re my favorite person to exist with.</p>
+    <button class="next-btn">Next ➜</button>
+  </section>
+
+  <section id="happy" class="screen">
+    <h2>🎉 Happy Birthday</h2>
+    <p>I wish you a life full of chaos, laughs, and happiness with me in it.</p>
+    <button class="next-btn">Final Surprise ➜</button>
+  </section>
+
+  <section id="another" class="screen">
+    <h2>🔐 Another Surprise…</h2>
+    <p>Someone is waiting for you outside this website.</p>
+    <button class="main-btn" id="secretBtn">Enter</button>
+  </section>
+
+  <!-- REVISIT PANEL -->
+  <div id="panel">
+    <button onclick="goTo('memory')">Memory</button>
+    <button onclick="goTo('photos')">Photos</button>
+    <button onclick="goTo('letters')">Letters</button>
+    <button onclick="goTo('us')">Us</button>
+    <button onclick="goTo('happy')">Happy</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
